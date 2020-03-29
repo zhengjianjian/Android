@@ -4,7 +4,7 @@
 
 代码在如下链接
 
-
+[layout1.xml](https://github.com/zhengjianjian/Android/blob/master/app/src/main/res/layout/layout1.xml)
 
 
 
@@ -16,7 +16,7 @@
 
 代码在如下链接
 
-
+[layout2.xml](https://github.com/zhengjianjian/Android/blob/master/app/src/main/res/layout/constraintlayout.xml)
 
 
 
@@ -28,7 +28,7 @@
 
 代码在如下链接
 
-
+[layout3.xml](https://github.com/zhengjianjian/Android/blob/master/app/src/main/res/layout/layout3.xml)
 
 
 

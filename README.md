@@ -1,3 +1,6 @@
-# 实验一
+# 
 
-https://blog.csdn.net/qq_34767115/article/details/96481352
+# 实验一：[链接](https://github.com/zhengjianjian/Android/tree/master/Experiment_1)
+
+# 实验二：[链接](https://github.com/zhengjianjian/Android/tree/master/Experiment_2)
+
