@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">MyApplication</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="violet">VIOLET</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="oneone">One,One</string>
+    <string name="onetwo" >One,Two</string>
+    <string name="onethree">One,Three</string>
+    <string name="onefour" >One,Four</string>
+    <string name="twoone">Two,One</string>
+    <string name="twotwo" >Two,Two</string>
+    <string name="twothree">Two,Three</string>
+    <string name="twofour" >Two,Four</string>
+    <string name="threeone">Three,One</string>
+    <string name="threetwo" >Three,Two</string>
+    <string name="threethree">Three,Three</string>
+    <string name="threefour" >Three,Four</string>
+    <string name="fourone">Four,One</string>
+    <string name="fourtwo" >Four,Two</string>
+    <string name="fourthree">Four,Three</string>
+    <string name="fourfour" >Four,Four</string>
+    <string name="open">Open...</string>
+    <string name="ctrlo">Ctrl-O</string>
+    <string name="save">Save...</string>
+    <string name="ctrls">Ctrl-S</string>
+    <string name="saveas">Save As...</string>
+    <string name="ctrlshifts">Ctrl-Shift-S</string>
+    <string name="import1">Import...</string>
+    <string name="export1">Export...</string>
+    <string name="ctrle">Ctrl-E</string>
+    <string name="quit">Quit</string>
+    <string name="x">X</string>
 </resources>
