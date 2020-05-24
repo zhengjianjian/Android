@@ -39,6 +39,7 @@ android:layout_height="match_parent">
 
 （3）java代码如下：
 
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -51,10 +52,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-
-
-
 public class MainActivity extends AppCompatActivity {
     private String[] names = new String[]
             {"Lion","Tiger","Monkey","Dog","Cat","Elephant"};
@@ -99,8 +96,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 }
+```
 
 运行结果如下：
 
@@ -152,6 +149,7 @@ android:inputType="textPassword"/>
 
 （2）java代码如下：
 
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.AlertDialog;
@@ -184,6 +182,7 @@ new AlertDialog.Builder(this)
 .create().show();
 }
 }
+```
 
 运行结果如下：
 
@@ -208,6 +207,7 @@ tools:context=".MainActivity">
 
 （2）java代码如下：
 
+```java
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.graphics.Color;
@@ -264,6 +264,7 @@ break;
 return true;
 }
 }
+```
 
 运行结果如下：
 
