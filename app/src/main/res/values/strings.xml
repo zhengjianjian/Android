@@ -34,4 +34,8 @@
     <string name="ctrle">Ctrl-E</string>
     <string name="quit">Quit</string>
     <string name="x">X</string>
+    <string name="edit_name">www.baidu.com</string>
+
+    <string name="button_name">跳转</string>
+    <string name="web_url">www.baidu.com</string>
 </resources>
