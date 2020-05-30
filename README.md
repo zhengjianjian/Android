@@ -8,3 +8,5 @@
 
 # 实验四：[链接](https://github.com/zhengjianjian/Android/tree/master/Experiment_4)
 
+# 期中实验：[链接](https://github.com/zhengjianjian/Android/tree/master/Experiment_5)
+
