@@ -110,20 +110,16 @@ int[] viewIDs = { android.R.id.text1,R.id.time1};
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
-                Log.i("判断之前",s);
                 Cursor cursor = null;
                 String[] dataColumns = {NotePad.Notes.COLUMN_NAME_TITLE,
                         NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE};
-
                 int[] viewIDs = {android.R.id.text1, R.id.time1};
-
                 SimpleCursorAdapter adapter = null;
                 if (s.length() != 0 || s != null) {
-                    Log.i("判断空值", s);
                     cursor = managedQuery(
                             getIntent().getData(),           
                             PROJECTION,                      
-                            NotePad.Notes.COLUMN_NAME_TITLE + " LIKE '%" + s + "%'",                            
+                           NotePad.Notes.COLUMN_NAME_TITLE + " LIKE '%" + s + "%'",                         
                             null,                             
                             NotePad.Notes.DEFAULT_SORT_ORDER  
                     );
@@ -138,10 +134,8 @@ int[] viewIDs = { android.R.id.text1,R.id.time1};
                 setListAdapter(adapter);
                 return true;
             }
-
             @Override
             public boolean onQueryTextChange(String s) {
-                Log.i("判断之前",s);
                 Cursor cursor = null;
                 String[] dataColumns = {NotePad.Notes.COLUMN_NAME_TITLE,
                         NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE};
@@ -150,11 +144,10 @@ int[] viewIDs = { android.R.id.text1,R.id.time1};
 
                 SimpleCursorAdapter adapter = null;
                 if (s.length() != 0 || s != null) {
-                    Log.i("判断空值", s);
                     cursor = managedQuery(
                             getIntent().getData(),            
                             PROJECTION,                      
-                            NotePad.Notes.COLUMN_NAME_TITLE + " LIKE '%" + s + "%'",                             // No where clause, return all records.
+                            NotePad.Notes.COLUMN_NAME_TITLE + " LIKE '%" + s + "%'",     
                             null,                             
                             NotePad.Notes.DEFAULT_SORT_ORDER 
                     );
